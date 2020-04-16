@@ -44,7 +44,7 @@ class ArrowButton: UIButton {
   // MARK: - Logic
 
   func updateText(_ text: String) {
-    label.text = text/.uppercased()
+    label.text = text//.uppercased()
     arrow.alpha = text.isEmpty ? 0 : 1
     invalidateIntrinsicContentSize()
   }
