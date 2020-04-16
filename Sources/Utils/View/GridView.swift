@@ -129,7 +129,7 @@ class GridView: UIView {
     let button = UIButton(type: .system)
     button.setTitleColor(UIColor.white, for: UIControl.State())
     button.setTitleColor(UIColor.lightGray, for: .disabled)
-    button.titleLabel?.font = Config.Font.Text.regular.withSize(16)
+    button.titleLabel?.font = Config.Font.Text.regular.withSize(18)
     button.setTitle("Gallery.Done".g_localize(fallback: "Done"), for: UIControl.State())
     
     return button
