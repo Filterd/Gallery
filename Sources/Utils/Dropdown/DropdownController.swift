@@ -38,9 +38,9 @@ class DropdownController: UIViewController {
   // MARK: - Setup
 
   func setup() {
-    view.backgroundColor = UIColor.clear
-    tableView.backgroundColor = UIColor.clear
-    tableView.backgroundView = blurView
+   // view.backgroundColor = UIColor.clear
+   // tableView.backgroundColor = UIColor.clear
+   // tableView.backgroundView = blurView
     
     view.addSubview(tableView)
     tableView.register(AlbumCell.self, forCellReuseIdentifier: String(describing: AlbumCell.self))
